@@ -1,2 +1,12 @@
 {
+  "task": {
+    "videoId": "PceixX64Xqg",
+    "searchQuery": "om chanting 10 hours golden glimpses",
+    "searchItemSelector": "a[title='Om Mantra Chanting 10 Hours']",
+    "isSubscribeRequired": true,
+    "isLikeRequired": true,
+    "comments": {
+      "work1.sameerindia": "Superb, The video provided me innerpeace."
+    }
+  }
 }
