@@ -1,0 +1,19 @@
+# Navigate to Google Chrome Profiles Directory
+cd ~/workspace/chrome-workers
+
+# Create profiles directory
+mkdir profiles
+
+# Launch Chrome with path to profile directory.
+google-chrome --user-data-dir=profiles/work1.sameerindia
+google-chrome --user-data-dir=profiles/work2.sameerindia
+google-chrome --user-data-dir=profiles/work3.sameerindia
+google-chrome --user-data-dir=profiles/work4.sameerindia
+google-chrome --user-data-dir=profiles/work5.sameerindia
+google-chrome --user-data-dir=profiles/work6.sameerindia
+google-chrome --user-data-dir=profiles/work7.sameerindia
+google-chrome --user-data-dir=profiles/work8.sameerindia
+google-chrome --user-data-dir=profiles/work9.sameerindia
+
+
+
