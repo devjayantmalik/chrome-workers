@@ -1,7 +1,7 @@
 /**
  * Extension: scripty
  * Name: Youtube AD Auto Remove
- * Run script if: Path -> Equals -> /watch
+ * Run script if: Path -> Contains -> /watch
  * Trigger: Automatically -> On Page Load
  */
 

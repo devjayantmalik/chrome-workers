@@ -12,7 +12,7 @@ async function fetchSearchItemSelector() {
  * Run script if: Path -> Equals -> /results
  * Trigger: Automatically -> On Page Load
  */
-setInterval(async () => {
+setTimeout(async () => {
   // Fetch Search Query and Perform Search.
   const selector = await fetchSearchItemSelector();
   const searchItem = document.querySelector(selector);

@@ -21,14 +21,14 @@ async function fetchSearchQuery() {
 /**
  * Extension: scripty
  * Name: Search Video
- * Run script if: URL -> Contains -> youtube.com
+ * Run script if: Path -> Equals -> /
  * Trigger: Automatically -> On Page Load
  */
 // TODO: Check if data has been changed on remote server:
 // if server data updated -> Search again
-const interval = setInterval(async () => {
+setTimeout(async () => {
   if (window.location.href !== "https://www.youtube.com/") return;
 
   // Fetch Search Query and Perform Search.
   search(await fetchSearchQuery());
-}, 10000);
+}, 3000);
